@@ -66,16 +66,14 @@
 
 
 # LIST
-    - nama = []
-    - nim = []
-    - nilaiTugas = []
-    - nilaiUTS = []
-    - nilaiUAS = []
-    - nilaiAkhir = []
-    - print()
+    print("\nMasukkan data mahasiswa:")
+    nama = input("Nama        : ")
+    nim = int(input("NIM         : "))
+    nilai_tugas = int(input("Nilai Tugas : "))
+    nilai_uts = int(input("Nilai UTS   : "))
+    nilai_uas = int(input("Nilai UAS   : "))
 
 # Input
-    # Tambahkan data ke dalam list
     data_mahasiswa.append({
         'Nama': nama,
         'NIM': nim,
