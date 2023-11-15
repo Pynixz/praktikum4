@@ -1,8 +1,7 @@
 # TUGAS PRAKTIKUM 4
-## Latihan 1
+#Latihan 1
 # Input
-
-# Membuat list dengan 5 elemen
+    - Membuat list dengan 5 elemen
 my_list = [1, 2, 3, 4, 5]
 
 #AKSES LIST
