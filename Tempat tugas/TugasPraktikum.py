@@ -31,12 +31,12 @@ while True:
         break
 
 # Tampilkan output dengan format tabel
-print("\n{:=^65}".format(""))
-print("| No | {:<10} | {:^14} | {:^5} | {:^4} | {:^4} | {:^5} |".format("Nama", "NIM", "Tugas", "UTS", "UAS", "Akhir"))
-print("{:=^65}".format(""))
+print("\n{:=^85}".format(""))
+print("| No | {:<21} | {:^10} | {:^15} | {:^5} | {:^5} | {:^5} |".format("Nama", "NIM", "Tugas", "UTS", "UAS", "Akhir"))
+print("{:=^85}".format(""))
 
 for idx, mahasiswa in enumerate(data_mahasiswa, start=1):
-    print("| {:<2} | {:<10} | {:^14} | {:^5} | {:^4} | {:^4} | {:.2f} |".format(idx, mahasiswa['Nama'], mahasiswa['NIM'],
+    print("| {:<2} | {:<10} | {:^10} | {:^15} | {:^5} | {:^5} | {:.2f} |".format(idx, mahasiswa['Nama'], mahasiswa['NIM'],
                                                                                     mahasiswa['Nilai Tugas'], mahasiswa['Nilai UTS'],
                                                                                     mahasiswa['Nilai UAS'], mahasiswa['Nilai Akhir']))
-print("{:=^65}".format(""))
+print("{:=^85}".format(""))
