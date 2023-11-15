@@ -4,47 +4,46 @@
 # Membuat list dengan 5 elemen
     - my_list = [1, 2, 3, 4, 5]
 
-#AKSES LIST
+## AKSES LIST
 # Mengakses dan menampilkan elemen ke-3
-print("Elemen ke-3:", my_list[2])
+    - print("Elemen ke-3:", my_list[2])
 
 # Mengambil nilai elemen ke-2 sampai elemen ke-4
-subset_list = my_list[1:4]
-print("Nilai elemen ke-2 sampai elemen ke-4:", subset_list)
+    - subset_list = my_list[1:4]
+    - print("Nilai elemen ke-2 sampai elemen ke-4:", subset_list)
 
 # Mengambil elemen terakhir
-last_element = my_list[-1]
-print("Elemen terakhir:", last_element)
+    - last_element = my_list[-1]
+    - print("Elemen terakhir:", last_element)
 
-#UBAH ELEMENT LIST
-#ubah elemen ke 4 dengan nilai lainnya
-my_list[3] = 60
-print("Setelah mengubah elemen ke-4:", my_list)
+## UBAH ELEMENT LIST
+# ubah elemen ke 4 dengan nilai lainnya
+    - my_list[3] = 60
+    - print("Setelah mengubah elemen ke-4:", my_list)
 
-#ubah elemen ke 4 sampai dengan elemen terakhir
-my_list[3:] = [60, 70]
-print("Setelah mengubah nilai elemen ke-4 sampai elemen terakhir:", my_list)
+# ubah elemen ke 4 sampai dengan elemen terakhir
+    - my_list[3:] = [60, 70]
+    - print("Setelah mengubah nilai elemen ke-4 sampai elemen terakhir:", my_list)
 
-#TAMBAH ELEMENT LIST
+## TAMBAH ELEMENT LIST
 # Buat list pertama (A)
-A = [1, 2, 3, 4, 5]
+    - A = [1, 2, 3, 4, 5]
 # Ambil 2 bagian dari list pertama (A) dan jadikan list kedua (B)
-B = A[:2]
-print("List B:", B)
+    - B = A[:2]
+    - print("List B:", B)
 
 # Tambahkan list B dengan nilai string
-B.append("Hello")
-print("List B:" , B)
+    - B.append("Hello")
+    - print("List B:" , B)
 
 # Tambahkan list B dengan 3 nilai
-B.extend([3, 4, 5])
-print("List B:", B)
+    - B.extend([3, 4, 5])
+    - print("List B:", B)
 
 # Gabungkan list B dengan list A
-C = B + A
-print("List C (gabungan A dan B):", C)
+    - C = B + A
+    - print("List C (gabungan A dan B):", C)
 
-`
 
 ## Output
 
@@ -60,41 +59,34 @@ print("List C (gabungan A dan B):", C)
 6. List B (list_B) kemudian digabungkan ke list A (list_A) menggunakan metode extend.
 7. Hasilnya dicetak untuk dilihat.
 
-# Praktikum 4
+## Praktikum 4
 
 ## Input
 
 
-`
+
 # LIST
-
-nama = []
-nim = []
-nilaiTugas = []
-nilaiUTS = []
-nilaiUAS = []
-nilaiAkhir = []
-
-print()
+    - nama = []
+    - nim = []
+    - nilaiTugas = []
+    - nilaiUTS = []
+    - nilaiUAS = []
+    - nilaiAkhir = []
+    - print()
 
 # Input
+    # Tambahkan data ke dalam list
+    data_mahasiswa.append({
+        'Nama': nama,
+        'NIM': nim,
+        'Nilai Tugas': nilai_tugas,
+        'Nilai UTS': nilai_uts,
+        'Nilai UAS': nilai_uas,
+        'Nilai Akhir': nilai_akhir
+    })
 
-while True:
-nama.append(input("Masukan nama : "))
-nim.append(input("Masukan NIM : "))
-Tugas = int(input("Nilai Tugas : "));
-nilaiTugas.append(Tugas)
-UTS = int(input("Nilai UTS : "));
-nilaiUTS.append(UTS)
-UAS = int(input("Nilai UAS : "));
-nilaiUAS.append(UAS)
-
-    nilaiAkhir.append(Tugas * 30/100 + UTS * 35/100 + UAS * 35/100)
-
-    print()
-    _tanya = input("Tambah data ? [y/t]: ")
-    print()
-    if(_tanya == "t"):
+    tambah_data = input("\nTambah Data(y/t)? ").lower()
+    if tambah_data != 'y':
         break
 
 # Output
@@ -109,7 +101,6 @@ no += 1
  print("| {0:>2} | {1:<18} | {2:>8} | {3:>6} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, Tugas, UTS, UAS, nilaiAkhir))
 print("==========================================================================")
 
-`
 
 ## Output
 
