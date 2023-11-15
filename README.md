@@ -91,15 +91,15 @@
 
 # Output
 
-print("===========================================================================")
-print("| {0:^2} | {1:^18} | {2:^9} | {3:^6} | {4:^5} | {5:^5} | {6:^7} |".format("No", "Nama", "NIM", "Tugas", "UTS", "UAS", "Akhir"))
-print("===========================================================================")
+    print("\n{:=^85}".format(""))
+    print("| No | {:<21} | {:^10} | {:^15} | {:^5} | {:^5} | {:^5} |".format("Nama", "NIM", "Tugas", "UTS", "UAS", "Akhir"))
+    print("{:=^85}".format(""))
 
-no = 0
-for nama, nim, Tugas, UTS, UAS, nilaiAkhir in zip(nama, nim, nilaiTugas, nilaiUTS, nilaiUAS, nilaiAkhir):
-no += 1  
- print("| {0:>2} | {1:<18} | {2:>8} | {3:>6} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, Tugas, UTS, UAS, nilaiAkhir))
-print("==========================================================================")
+    for idx, mahasiswa in enumerate(data_mahasiswa, start=1):
+    print("| {:<2} | {:<10} | {:^10} | {:^15} | {:^5} | {:^5} | {:.2f} |".format(idx, mahasiswa['Nama'], mahasiswa['NIM'],
+                                                                                    mahasiswa['Nilai Tugas'], mahasiswa['Nilai UTS'],
+                                                                                    mahasiswa['Nilai UAS'], mahasiswa['Nilai Akhir']))
+    print("{:=^85}".format(""))
 
 
 ## Output
