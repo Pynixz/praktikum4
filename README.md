@@ -109,7 +109,8 @@
 
 
 ## Flowchart
-![Flowchart Praktikum4](https://github.com/Pynixz/praktikum4/assets/147568964/80e9341f-a562-4ab2-ab94-01262481983e)
+
+![Flowchart Praktikum4](https://github.com/Pynixz/praktikum4/assets/147568964/b8a29a71-352f-4512-878f-c763967321d0)
 
 ## Penjelasan
 
