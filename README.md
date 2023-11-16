@@ -1,7 +1,8 @@
 # TUGAS PRAKTIKUM 4
 ## Latihan 1
 - Input
-  ![Screenshot 2023-11-16 195627](https://github.com/Pynixz/praktikum4/assets/147568964/aa93a718-0dfc-4082-811c-d807730358a0)
+  ![Screenshot 2023-11-16 195735](https://github.com/Pynixz/praktikum4/assets/147568964/64a7173e-4b1a-449e-a768-2958e02f0b04)
+  
 # Membuat list dengan 5 elemen
     - my_list = [10, 20, 30, 40, 50]
 
@@ -48,7 +49,7 @@
 
 ## Output
 
-![Screenshot 2023-11-16 195601](https://github.com/Pynixz/praktikum4/assets/147568964/48fe716d-488e-42a8-8e19-abc074c3cd5a)
+![Screenshot 2023-11-16 195521](https://github.com/Pynixz/praktikum4/assets/147568964/44c9aa7e-dc1d-4e7f-b49d-b291b63ebd2b)
 
 ## Penjelasan
 
@@ -64,6 +65,7 @@
 
 ## Input
 
+![Screenshot 2023-11-16 195627](https://github.com/Pynixz/praktikum4/assets/147568964/2e3ecfac-51c3-441d-b003-fd71022389da)
 
 
 # LIST
@@ -103,11 +105,11 @@
 
 ## Output
 
+![Screenshot 2023-11-16 195601](https://github.com/Pynixz/praktikum4/assets/147568964/307db9b2-ba96-4d53-a3cb-47f3de9d37e2)
 
 
 ## Flowchart
-
-
+![Flowchart Praktikum4](https://github.com/Pynixz/praktikum4/assets/147568964/80e9341f-a562-4ab2-ab94-01262481983e)
 
 ## Penjelasan
 
