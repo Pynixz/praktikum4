@@ -61,7 +61,7 @@
 6. List B (list_B) kemudian digabungkan ke list A (list_A) menggunakan metode extend.
 7. Hasilnya dicetak untuk dilihat.
 
-##  PRAKTIKUM 4
+##  Praktikum 4
 
 ## Input
 
