@@ -28,7 +28,7 @@
     - print("List setelah mengubah elemen ke 4 sampai dengan elemen terakhir:", my_list)
 
 ## TAMBAH ELEMENT LIST
-# Tambah elemen list
+
 # Ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B)
     - list_A = my_list[:2]
     - list_B = list_A.copy()
