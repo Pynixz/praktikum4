@@ -53,10 +53,10 @@
 
 ## Penjelasan
 
-1. List pertama (list_A) diinisialisasi dengan nilai [1, 2, 3, 4, 5].
+1. List pertama (list_A) diinisialisasi dengan nilai [10, 20, 30, 40, 50].
 2. Dua bagian pertama dari list_A diambil dan disalin ke list_B menggunakan slicing (list_A[:2]).
 3. Tiga nilai string ("string1" dan "string2") ditambahkan ke list_B menggunakan metode append.
-4. Tiga nilai (3, 4, dan 5) ditambahkan ke list_B menggunakan metode extend.
+4. Tiga nilai (3, 6, dan 9) ditambahkan ke list_B menggunakan metode extend.
 5. List B (list_B) sekarang berisi dua bagian pertama dari list A, dua nilai string, dan tiga nilai tambahan.
 6. List B (list_B) kemudian digabungkan ke list A (list_A) menggunakan metode extend.
 7. Hasilnya dicetak untuk dilihat.
@@ -120,4 +120,5 @@
 4. Pengguna diminta untuk memasukkan nama, nilai tugas, nilai UTS, dan nilai UAS.
 5. Nilai akhir dihitung menggunakan fungsi hitung_nilai_akhir dan data dimasukkan ke dalam list.
 6. Program menanyakan apakah pengguna ingin menambahkan data lagi, dan perulangan berlanjut jika jawabannya 'y'.
-7. Setelah selesai memasukkan data, program menampilkan daftar data mahasiswa dalam format tabel sederhana.
+7. Program menanyakan apakah pengguna tidak ingin menambahkan data lagi maka jawabannya "t"
+8. Setelah selesai memasukkan data, program menampilkan daftar data mahasiswa dalam format tabel sederhana.
