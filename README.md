@@ -1,6 +1,7 @@
 # TUGAS PRAKTIKUM 4
 ## Latihan 1
 - Input
+  ![Screenshot 2023-11-16 195627](https://github.com/Pynixz/praktikum4/assets/147568964/aa93a718-0dfc-4082-811c-d807730358a0)
 # Membuat list dengan 5 elemen
     - my_list = [10, 20, 30, 40, 50]
 
@@ -47,7 +48,7 @@
 
 ## Output
 
-
+![Screenshot 2023-11-16 195601](https://github.com/Pynixz/praktikum4/assets/147568964/48fe716d-488e-42a8-8e19-abc074c3cd5a)
 
 ## Penjelasan
 
