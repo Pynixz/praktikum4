@@ -119,6 +119,5 @@
 3. Program menggunakan perulangan while True untuk terus meminta input data.
 4. Pengguna diminta untuk memasukkan nama, nilai tugas, nilai UTS, dan nilai UAS.
 5. Nilai akhir dihitung menggunakan fungsi hitung_nilai_akhir dan data dimasukkan ke dalam list.
-6. Program menanyakan apakah pengguna ingin menambahkan data lagi, dan perulangan berlanjut jika jawabannya 'y'.
-7. Program menanyakan apakah pengguna tidak ingin menambahkan data lagi maka jawabannya "t"
+6. Program menanyakan apakah pengguna ingin menambahkan data lagi, dan perulangan berlanjut jika jawabannya 'y' Jika tidak ingin menambahkan data lagi maka jawabannya "t"
 8. Setelah selesai memasukkan data, program menampilkan daftar data mahasiswa dalam format tabel sederhana.
